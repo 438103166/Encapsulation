@@ -3,18 +3,19 @@
 	private String name;
 	private double topSpead;
 
-	Car() {
-		
+
+Car(String Name) {
+name =Name;		
 	}
 public String getName() {
 	return name;
 	}
 
 public void setName(String Num) {
-	
+name=Num;	
 }
 public void setTopSpead(double Spead) {
-	
+	topSpead=Spead;
 }
 public double getTopSpeadMPH() {
 	return topSpead;
